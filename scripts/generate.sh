@@ -132,3 +132,19 @@ RUN apt-get -y install libgconf-2-4 \
   && mv chromedriver /usr/local/bin/chromedriver \
   && chmod +x /usr/local/bin/chromedriver"
 fi
+
+# install ddnet specifics
+echo "RUN apt-get install -y build-essential \
+  wget \
+  git \
+  cmake \
+  ca-certificates \
+  libcurl4-openssl-dev \
+  libfreetype6-dev \
+  libglew-dev \
+  libogg-dev \
+  libopus-dev \
+  libpnglite-dev \
+  libwavpack-dev \
+  libopusfile-dev \
+  libsdl2-dev "
