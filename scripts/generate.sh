@@ -133,7 +133,7 @@ RUN apt-get -y install libgconf-2-4 \
   && chmod +x /usr/local/bin/chromedriver"
 fi
 
-# install ddnet-env specifics
+# install ddnet specifics
 echo "RUN apt-get install -y build-essential \
   wget \
   git \
